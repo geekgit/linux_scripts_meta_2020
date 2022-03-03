@@ -66,6 +66,7 @@ do
 done
 echo "Clean /usr/local/bin..."
 cd ..
+sudo chmod a+rwx remove-all.sh
 ./remove-all.sh
 cd renamed
 sudo chown root:root *
