@@ -29,10 +29,11 @@ else
 fi
 
 #
-sudo apt-get install -y net-tools mesa-utils vulkan-utils git apt-transport-https fonts-takao-mincho fonts-takao-gothic fonts-takao fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils exfat-fuse exfat-utils sshpass gucharmap mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b innoextract qsstv ebook2cwgui fldigi gqrx-sdr cuneiform tesseract-ocr-all yagf grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar vlc-bin vlc gnome-tweaks psensor lm-sensors xsensors gddrescue jmtpfs mtp-tools android-tools-fastboot android-tools-adb easytag sysstat webp pngquant python3-pip
+sudo apt-get update
+sudo apt-get install -y "net-tools mesa-utils vulkan-utils git apt-transport-https fonts-takao-mincho fonts-takao-gothic fonts-takao fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core uuid-runtime htop git pv curl wget mtools dosfstools qemu-utils exfat-fuse exfat-utils sshpass gucharmap mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b innoextract qsstv ebook2cwgui fldigi gqrx-sdr cuneiform tesseract-ocr-all yagf grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar vlc-bin vlc gnome-tweaks psensor lm-sensors xsensors gddrescue jmtpfs mtp-tools android-tools-fastboot android-tools-adb easytag sysstat webp pngquant python3-pip"
 # cdemu
 sudo add-apt-repository -y ppa:cdemu/ppa
-sudo apt-get update
+
 sudo apt-get install -y gcdemu
 #
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
