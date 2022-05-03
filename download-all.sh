@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y mono-devel
 sudo cp apt_batch_installer /usr/local/bin
 sudo chmod a+rx-w /usr/local/bin/apt_batch_installer
 #
